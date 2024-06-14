@@ -14,10 +14,15 @@ nav{
     background: #000;
     color: #fff;
     padding: 19px 12px;
+    /* position: fixed; */
 }
 
 .logo{
     margin-left: 45px;
+}
+
+#menu-bars{
+    display: none;
 }
 
 ul{
@@ -44,17 +49,93 @@ ul >li >a:hover{
 
 main{
     min-height: 83vh;
+    padding: 5px;
 }
+
+.container{
+    /* background-color: aqua; */
+    max-width: 80vw;
+    padding: 20px;
+    margin: auto;
+}
+
+.container h1{
+    padding: 12px 0;
+}
+
+input{
+    width: 39%;
+    height: 5vh;
+    padding: 5px;
+    font-size: 14px;
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+.button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 28px;
+    width: 60px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#resultContainer div::first-letter{
+    text-transform: uppercase;
+}
+
+
+.loading {
+    height: 50px;
+}
+
 
 footer{
     background: #000;
     color: #fff;
+    width: 100%;
     padding: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* position: fixed; */
+    position: absolute;
+    bottom: 0;
 }
 
 footer i{
     padding: 5px;
 }
+
+
+/* media queries */
+@media only screen and (max-width: 600px){
+    body{
+        background-color: aquamarine;
+    }
+
+    .container{
+        font-size: 12px;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    .logo{
+        margin-left: 20px;
+    }
+
+    #menu-bars{
+        display: block;
+    }
+}
+
+/* @media only screen and (min-width: 600px){
+    body{
+        background-color: rgb(165, 12, 12);
+    }
+} */
