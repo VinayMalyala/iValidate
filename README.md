@@ -18,6 +18,9 @@
 - **JavaScript**: For handling form submissions, making API requests, and displaying results.
 - **Email Validator API**: To check the validity of email addresses.
 
+## Preview:
+https://github.com/VinayMalyala/iValidate/assets/111955986/914df3c6-3383-485e-936b-d9176f874600
+
 ## Getting Started
 
 ### Prerequisites
